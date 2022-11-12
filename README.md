@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @bogasampath
-- 👀 I’m interested in UI development
+- 👀 I’m a React js developer
 - 💞️ I’m looking to collaborate on Reactjs projects
 - 📫 How to reach me sam.kumar937@gmail.com
 
