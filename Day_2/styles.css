@@ -1,0 +1,221 @@
+/* card - one */
+
+.card-one{
+    width:300px;
+    border-radius: 14px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 40px auto;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 14px;
+}
+
+.card-header{
+    position: relative;
+}
+
+.promoted{
+    position: absolute;
+    background-color: rgba(97, 97, 97, 0.623);
+    color: rgba(255, 255, 255, 0.678);
+    border-radius: 3px;
+    padding: 2px 4px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 10px;
+    top: 10px
+}
+.discount{
+    background-color: rgba(12, 99, 230, 0.884);
+    color: rgb(231, 240, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600px;
+    position: absolute;
+    bottom: 15px;
+    left:0;
+    padding: 3px;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.time{
+    position: absolute;
+    right: 8px;
+    bottom: 15px;
+    background-color: #FFFF;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 4px;
+}
+.rest-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 5px 0;
+}
+.place{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(121, 121, 121);
+    font-weight: 500px;
+}
+.info{
+    border-top: 1px solid lightgray;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.safety-img{
+    width:60px;
+    height: 100%;
+    margin-right: 5px;
+}
+.safety-info{
+    color: rgb(109, 109, 109);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+/* Card - TWO */
+.card-two{
+    position: relative;
+    border-radius: 14px;
+    width: 45%;
+    margin: 40px auto;
+    color: #ebebeb;    
+}
+
+.card-two-img{
+    width: 100%;
+    border-radius: 14px;   
+    text-align: center;
+}
+
+.card-two-content{
+    position: absolute;
+    bottom: 100px;
+    color:#ebebeb;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.card-two-btn{
+    padding: 12px 14px;
+    color: rgba(26, 26, 26, 0.932);
+    background-color: #ebebeb;
+    border: 0;
+    border-radius: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* card- Three */
+.card-three{
+    /* position: relative; */
+    margin: 40px auto;
+    width: 30%;
+    border-radius: 14px;
+    border: 2px solid rgba(168, 168, 168, 0.699);
+}
+
+.card-three-bg{
+    width: 100%;
+    height: 120px;
+    border-radius: 14px 14px 0px 0px;
+}
+
+.card-three-header{
+    position: relative;
+    width: 100%;
+}
+
+.card-three-pic{
+    position: absolute;
+    bottom: -50%;
+    border-radius: 50%;
+    width: 100%;
+    text-align: center;
+}
+.card-three-avatar{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 0px 2px 2px 2px solid rgba(240, 240, 240, 0.877);
+}
+
+.card-three-content{
+    margin: 80px auto 40px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+.card-three-position{
+    font-size: 18px;
+    color: rgba(83, 83, 83, 0.87);
+    font-weight: 500;
+}   
+
+/* Card - Four */
+
+.card-four{
+    width: 45%;
+    height: 300px;
+    margin: 40px auto;
+    position: relative;
+}
+
+.card-four-bg{
+    width: 100%;
+    height: 100%;
+}
+.name{
+    margin-bottom: 50px;
+    color: white;
+    font-size: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.card-four-content{
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(73, 73, 73, 0.445);
+    bottom: 0;
+    color:#ebebeb;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.search-bar{
+    background-color: white;
+    padding: 8px 0px 8px 5px;
+    margin: 20px 60px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.input{
+    width: 60%;
+    padding: 8px;
+    outline: none;
+    border: none;
+}
+
+select.city{
+    border: none;
+    border-right: 1px solid lightgray;
+}
+
